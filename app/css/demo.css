@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+
+.demoContainer {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.demoSectionWrapepr {
+    display: inline-block;
+    width: 98%;
+}
+
+.demoResponseList {
+    background-color: lightgrey;
+    margin: 0;
+    padding-right: 5px;
+    overflow-y: scroll;
+    height: calc(100% - 3px * 2 * 12);
+}
+
+.demoResponseList li {
+    list-style-type: decimal;
+    padding: 3px 0;
+    word-wrap: break-word;
+}
+
+.demoResponseList li + li {
+    border-top: 1px solid black; 
+}
+
+#chart span, #chart5 span {
+    display: inline-block;
+    background: #4285F4;
+    width: 15px;
+    margin-right: 3px;
+}
+
+#chart2 span,#chart6 span  {
+    display: inline-block;
+    background: silver;
+    width: 15px;
+    margin-right: 3px;
+}
+
+#chart3 span, #chart7 span {
+    display: inline-block;
+    background: darkslategray;
+    width: 15px;
+    margin-right: 3px;
+}
+
+#chart4 span, #chart8 span {
+    display: inline-block;
+    background: coral;
+    width: 15px;
+    margin-right: 3px;
+}
+
+.typelable{
+    padding: 3px;
+}
+
+.chartpadding{
+    padding: 15px 0px 15px 20px;
+}
